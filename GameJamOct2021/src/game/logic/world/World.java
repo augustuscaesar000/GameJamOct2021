@@ -11,5 +11,10 @@ public abstract class World {
 	
 	
 	public abstract boolean update();
+
+
+	public void addEntity(Entity entity) {
+		entities.add(entity);
+	}
 	
 }
