@@ -43,7 +43,7 @@ public class Screen extends Canvas {
 	public void render() {
 		clear();
 
-		renderSprite(0, 10, 0, new Sprite(10, 10, 0xff00ff00));
+		renderSprite(0, 10, 0, Sprites.TEST.s);
 
 		renderEntities(Main.entities);
 
