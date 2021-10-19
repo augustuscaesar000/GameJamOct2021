@@ -8,6 +8,12 @@ public class Entity implements IEntity {
 	Point3D rotation;
 	Point3D scale;
 
+	public Entity() {
+		position = new Point3D();
+		rotation = new Point3D();
+		scale = new Point3D();
+	}
+	
 	@Override
 	public Point3D getPosition() {
 		return position;
@@ -21,6 +27,12 @@ public class Entity implements IEntity {
 	@Override
 	public Point3D getScale() {
 		return scale;
+	}
+
+	@Override
+	public int getType() {
+		// TODO Auto-generated method stub
+		return 1;
 	}
 
 }

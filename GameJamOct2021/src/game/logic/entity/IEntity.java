@@ -8,4 +8,6 @@ public interface IEntity {
 	public Point3D getRotation();
 	public Point3D getScale();
 
+	public int getType();
+	
 }
